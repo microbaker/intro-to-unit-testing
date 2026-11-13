@@ -1,0 +1,14 @@
+[book]
+title = "Intro to Unit Testing for Test-Driven Development"
+authors = ["Brandon Baker"]
+description = "A practical guide to unit testing and TDD in C++ with Google Test"
+language = "en"
+src = "src"
+
+[build]
+build-dir = "book"
+
+[output.html]
+git-repository-url = "https://github.com/microbaker/intro-to-unit-testing"
+edit-url-template = "https://github.com/microbaker/intro-to-unit-testing/edit/main/{path}"
+site-url = "/intro-to-unit-testing/"
